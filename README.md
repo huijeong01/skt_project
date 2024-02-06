@@ -1,6 +1,6 @@
 # skt_project
 
-**preprocessing**
+## preprocessing
 
 1. delwomen20.py 실행 -> speakers가 모두 20대 여자인 발화자의 json 파일을 삭제 (20대 여자 발화자의 data가 불균형하게 너무 많음으로)
 
