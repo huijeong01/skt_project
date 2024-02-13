@@ -10,3 +10,7 @@
        * 매 문장마다 cut하여 zero padding 했을 때
          1) 너무 오래 걸림
          2) zero padding이 너무 많아 제대로 학습되지 X
+
+## Chatgpt api
+
+1. chatgpt api를 가져와서 표준 한국어를 경상도 사투리로 번역 요구 -> 잘 실행되지 X -> fine-tuning 필요!
