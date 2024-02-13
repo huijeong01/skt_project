@@ -1,3 +1,5 @@
+#chatgpt api 이용하여 입력받은 표준 한국어 경상도 사투리로 번역하기 -> 번역이 엄청 잘 되지 않는다.
+
 from fastapi import FastAPI, HTTPException
 import httpx
 from starlette.responses import JSONResponse
