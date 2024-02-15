@@ -13,6 +13,6 @@ blob_client = BlobClient.from_blob_url(blob_url=blob_url, credential=sas_token)
 # 파일 업로드 시 Content-Type 설정을 위한 ContentSettings 인스턴스 생성
 content_settings = ContentSettings(content_type='image/png')
 
-# 파일 업로드
+# 파일 업로드   
 with open(file_path, 'rb') as data:
     blob_client.upload_blob(data, overwrite=True, content_settings=content_settings)
