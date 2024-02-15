@@ -1,0 +1,2 @@
+*.jsonl filter=lfs diff=lfs merge=lfs -text
+front_function/finetuningdata.jsonl filter=lfs diff=lfs merge=lfs -text
