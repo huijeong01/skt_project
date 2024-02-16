@@ -8,10 +8,11 @@ client = OpenAI()
 
 # fine tuning 모델 만들기
 client.fine_tuning.jobs.create(
-  training_file="file-fILpyHnQVLDsRa6n7HmNab4T",
+  training_file="file-Aqjsshcm1WJgr4lZMKjZ7hvZ",
+  validation_file="file-iqZAoKrLWXyGUa5u6JgyP67X",
   model="gpt-3.5-turbo",
   hyperparameters={
-    "n_epochs":50  #n_epochs는 50까지만 가능!
+    "n_epochs":10  #n_epochs는 50까지만 가능!
   }
 )
 
